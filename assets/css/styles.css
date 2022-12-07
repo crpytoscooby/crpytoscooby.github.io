@@ -204,6 +204,8 @@ img{
     color: var(--white-color);
 }
 .home__img{
+    height: 500px;
+    width: 150px;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -376,9 +378,13 @@ img{
 
 /* ===== MEDIA QUERIES =====*/
 /* For small devices */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   .home__img {
-    width: 230px;
+    height: 320px;
+    width: 110px;
+    position: absolute;
+right: 0;
+bottom: 0;
   }
 }
 
